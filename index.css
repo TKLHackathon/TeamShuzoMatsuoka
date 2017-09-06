@@ -1,0 +1,22 @@
+*{
+	background-color: ;
+}
+.flex{
+	display: flex;
+}
+
+.image{
+	text-align:center;
+}
+
+.x{
+	width: 200px;
+	height: 200px;
+	background-color: grey;
+}
+
+h1{
+	text-align: center;
+}
+
+
