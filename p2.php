@@ -24,14 +24,16 @@
 <?php
 //パラメータの取り出し
 $sGoal = $_GET['goal'];
-$sTerm = $_GET['term'];
+$sTerm = $_GET['term']; //YYYY-MM-DD
 
-$aToday = getdate();
+$aToday = getdate(); 
 //日数計算とカレンダー行数の計算
 
 //タグに独自属性で日付を埋め込みながらforで出力
 
 
+
+/*<!--
 <table><!--カレンダー-->
 	<tr><!--これを繰り返し-->
 		<td class="passed" data-year="2017" data-month="9" data-day="3">
@@ -94,6 +96,7 @@ $aToday = getdate();
 		</td>
 	</tr>
 </table>
+*/
 ?>
 
 </body>
